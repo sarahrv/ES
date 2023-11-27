@@ -41,18 +41,7 @@ public class Calculadora {
         return dividendo/divisor;
     }
 
-
-    public static void main(String[] args) throws DivisaoPorZeroException, LimiteDeValorException {
-        Calculadora calculadora = new Calculadora();
-        System.out.println(calculadora.soma(10,15));
-        System.out.println(calculadora.soma(-1,5));
-        System.out.println(calculadora.soma(0.5,0.5));
-        System.out.println(calculadora.subtracao(5,10));
-        System.out.println(calculadora.subtracao(11.8,5.2));
-        System.out.println(calculadora.multiplicacao(60,8));
-        System.out.println(calculadora.divisao(1,1));
-        System.out.println(calculadora.divisao(1,0));
-    }
+    //removendo a main
 }
 
 
